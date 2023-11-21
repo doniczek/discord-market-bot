@@ -10,6 +10,8 @@
     SelectMenuBuilder,
     SelectMenuOptionBuilder, PermissionsBitField
 } = require('discord.js');
+
+const Discord = require('discord.js')
 const config = require("../../config.json");
 
 module.exports = {
@@ -53,7 +55,7 @@ module.exports = {
         var finaldescription = opis;
         finaldescription = finaldescription.replaceAll("{N}", "\n");
         
-        const embed = new EmbedBuilder();
+        const embed = new Discord.EmbedBuilder();
         if (tytul) {
             embed.setTitle(tytul)
         }

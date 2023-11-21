@@ -39,7 +39,7 @@ client.mainColor = parseInt(botMainColor);
 const giveawayManager = new Manager(client, {
     embedColor: botMainColor,
     pingEveryone: false,
-    emoji: "🎁",
+    emoji: "😎",
 });
 
 module.exports = giveawayManager;
